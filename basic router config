@@ -1,0 +1,41 @@
+Router>en
+Router>enable 
+Router#conf
+Router#configure ter
+Router#configure terminal 
+Enter configuration commands, one per line.  End with CNTL/Z.
+
+Router(config)#host
+Router(config)#hostname customer1
+customer1(config)#exit
+customer1#
+%SYS-5-CONFIG_I: Configured from console by console
+
+customer1#write
+Building configuration...
+[OK]
+customer1#con
+customer1#conf
+customer1#configure ter
+customer1#configure terminal 
+Enter configuration commands, one per line.  End with CNTL/Z.
+customer1(config)#ena
+customer1(config)#enable password cisco
+customer1(config)#exi
+customer1(config)#exit 
+customer1#
+%SYS-5-CONFIG_I: Configured from console by console
+write
+Building configuration...
+[OK]
+customer1#show run
+
+ 
+customer1#
+
+customer1#configure terminal 
+Enter configuration commands, one per line.  End with CNTL/Z.
+customer1(config)#ser
+customer1(config)#service p
+customer1(config)#service password-encryption 
+customer1(config)#
